@@ -7,6 +7,6 @@ def oxford_comma(array)
       array << "and"
       array.join(" , ")
   elsif array.length > 3
-      array.join
+      array.join(" , ")
   end
 end
